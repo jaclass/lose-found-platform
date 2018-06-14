@@ -5,14 +5,16 @@ frontend: vue-router is applied the overall pagenation of the website and vue-co
 backend: with the vue as our frontend framework, the backend only need to save and provide the data for the requirement from frontend. Thus, the Djangorestframework is a good choice to wirte web API with ease. 
 ajax: axios is used because it works well with vue, you can see the configuration of the axios in   frontend\src\main.js
 ## Install
-You can get into the virtual enviroment by [virtualenv](https://virtualenv.pypa.io/en/stable/) to avoid some unexpected trouble
+You can get into the virtual enviroment by [virtualenv](https://virtualenv.pypa.io/en/stable/) to avoid some unexpected trouble, and django and djangorestframework is required to installed by pip. 
 
 ### 1.run the backend
-`cd backend`
+`cd backend`  
+
 `python manage.py runserver`
 
 ### 2.run the frontend
-`cd frontend`
+`cd frontend`  
+
 `npm run dev`
 
 ## database
